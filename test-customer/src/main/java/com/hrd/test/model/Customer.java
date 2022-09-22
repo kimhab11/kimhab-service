@@ -1,4 +1,4 @@
-package com.hrd.java.model;
+package com.hrd.test.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

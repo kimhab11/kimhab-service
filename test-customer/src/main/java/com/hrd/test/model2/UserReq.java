@@ -1,4 +1,4 @@
-package com.hrd.java.model2;
+package com.hrd.test.model2;
 
 public record UserReq(
         String name

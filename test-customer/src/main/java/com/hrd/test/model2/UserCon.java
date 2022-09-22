@@ -1,4 +1,4 @@
-package com.hrd.java.model2;
+package com.hrd.test.model2;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

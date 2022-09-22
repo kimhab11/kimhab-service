@@ -1,4 +1,4 @@
-package com.hrd.java.model;
+package com.hrd.test.model;
 
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,10 @@
-package com.hrd.java;
+package com.hrd.test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserServiceJavaApp {
+public class TestServiceJavaApp {
     public static void main(String[] args) {
-        SpringApplication.run(UserServiceJavaApp.class, args);
+        SpringApplication.run(TestServiceJavaApp.class, args);
     }
 }
