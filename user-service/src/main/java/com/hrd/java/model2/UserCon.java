@@ -1,6 +1,5 @@
-package com.java;
+package com.hrd.java.model2;
 
-import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -8,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @Slf4j
 @RestController
-@NoArgsConstructor
 public record UserCon(UserServ userServ) {
 
     @PostMapping("user")

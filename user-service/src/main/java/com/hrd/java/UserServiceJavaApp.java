@@ -1,10 +1,10 @@
-package com.java;
+package com.hrd.java;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CustomerJavaAPP {
+public class UserServiceJavaApp {
     public static void main(String[] args) {
-        SpringApplication.run(CustomerJavaAPP.class, args);
+        SpringApplication.run(UserServiceJavaApp.class, args);
     }
 }

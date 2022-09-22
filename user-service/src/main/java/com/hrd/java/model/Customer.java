@@ -1,4 +1,4 @@
-package com.java;
+package com.hrd.java.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,13 +11,12 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-
+@Builder
+@Table(name = "customers")
 public class Customer {
     @Id
     @SequenceGenerator(name = "customer_id_seq", sequenceName = "customer_id_seq")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "customer_id_seq")
-    private Integer id = null;
-    private String firstName;
-    private String lastName;
+    private Integer id;
     private String email;
 }
