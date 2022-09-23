@@ -9,6 +9,7 @@
         </processorPath>
         <module name="kimhab-service.test-customer.main" />
         <module name="kimhab-service.user-service.main" />
+        <module name="kimhab-service.test-fraud.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

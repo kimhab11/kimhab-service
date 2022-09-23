@@ -1,12 +1,21 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/micro-user
+    url: jdbc:postgresql://localhost:5432/api-db-test
     username: postgres
     password: 123
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
     show-sql: true
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+  application:
+    name: customer
 server:
   port: 8081
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
+
