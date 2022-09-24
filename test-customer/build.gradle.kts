@@ -10,6 +10,9 @@ repositories {
 
 dependencies {
 
+//    implementation("org.springframework.boot:spring-boot-starter-actuator:2.7.4")
+//    implementation("org.springframework.cloud:spring-cloud-starter-config:3.1.4")
+
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client:3.1.4")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")

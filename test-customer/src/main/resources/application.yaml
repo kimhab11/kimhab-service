@@ -1,4 +1,6 @@
 spring:
+#  profiles:
+#    activate: dev
   datasource:
     url: jdbc:postgresql://localhost:5432/api-db-test
     username: postgres
@@ -18,4 +20,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     fetch-registry: true
     register-with-eureka: true
-

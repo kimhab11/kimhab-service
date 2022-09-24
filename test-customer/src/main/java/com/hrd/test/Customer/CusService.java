@@ -17,7 +17,7 @@ public class CusService {
                 .email(cusReq.email())
                 .name(cusReq.name())
                 .build();
-        cusRepo.save(customer);
+        cusRepo.saveAndFlush(customer);
 
         FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
                 "http://FRAUD/fraud/{customerId}" ,

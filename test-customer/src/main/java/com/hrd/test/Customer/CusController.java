@@ -15,13 +15,13 @@ import java.util.List;
 public class CusController {
     private final CusService cusService;
     @PostMapping("cus")
-    public void add(@RequestBody CusReq cusReq){
+    public void add(@RequestBody CusReq cusReq) {
         log.info("customer new {}", cusReq);
         cusService.add(cusReq);
     }
 
     @GetMapping("cus")
-    public List<Customer> get(){
-      return  cusService.findAll();
+    public List<Customer> get() {
+        return cusService.findAll();
     }
 }
