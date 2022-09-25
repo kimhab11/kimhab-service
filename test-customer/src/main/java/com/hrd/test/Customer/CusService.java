@@ -12,12 +12,12 @@ public class CusService {
     private final CusRepo cusRepo;
     private final RestTemplate restTemplate;
 
-    public void add(CusReq cusReq) {
+    public Customer add(CusReq cusReq) {
         Customer customer = Customer.builder()
                 .email(cusReq.email())
                 .name(cusReq.name())
                 .build();
-        cusRepo.saveAndFlush(customer);
+       cusRepo.saveAndFlush(customer);
 
         FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
                 "http://FRAUD/fraud/fraud/{customerId}" ,
@@ -27,6 +27,7 @@ public class CusService {
         if (fraudCheckResponse .isFraudster()){
             throw new IllegalStateException("Error");
         }
+        return customer;
     }
 
     public List<Customer> findAll() {
