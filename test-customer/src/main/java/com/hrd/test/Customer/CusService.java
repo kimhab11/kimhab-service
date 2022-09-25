@@ -20,7 +20,7 @@ public class CusService {
         cusRepo.saveAndFlush(customer);
 
         FraudCheckResponse fraudCheckResponse = restTemplate.getForObject(
-                "http://FRAUD/fraud/{customerId}" ,
+                "http://FRAUD/fraud/fraud/{customerId}" ,
                 FraudCheckResponse.class ,
                 customer.getId()
         );

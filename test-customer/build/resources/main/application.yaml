@@ -1,6 +1,4 @@
 spring:
-  profiles:
-    activate: dev
   datasource:
     url: jdbc:postgresql://localhost:5432/api-db-test
     username: postgres
@@ -12,9 +10,6 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   application:
     name: customer
-  config:
-    import: optional:configserver:http://localhost:9090
-
 server:
   port: 8081
 eureka:
