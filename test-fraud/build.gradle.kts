@@ -22,6 +22,11 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation("org.springdoc:springdoc-openapi-ui:1.6.11")
+
+    implementation("org.springframework.cloud:spring-cloud-starter-zipkin:2.2.8.RELEASE")
+    implementation("org.springframework.cloud:spring-cloud-starter-sleuth:3.1.4")
+    implementation("org.springframework.cloud:spring-cloud-sleuth-zipkin:3.1.4")
+
 }
 
 tasks.getByName<Test>("test") {

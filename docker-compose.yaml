@@ -22,6 +22,11 @@ volumes:
   keycloak_data:
 
 services:
+  zipkin:
+    container_name: zipkin
+    image: openzipkin/zipkin
+    ports:
+      - "9411:9411"
   keycloak-database:
     image: postgres:14.4-alpine
     restart: unless-stopped
