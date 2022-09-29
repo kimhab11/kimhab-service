@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/config-server/kimhab-service.config-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/config-server/kimhab-service.config-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customer-service/kimhab-service.customer-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/customer-service/kimhab-service.customer-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server/kimhab-service.eureka-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server/kimhab-service.eureka-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fraud-service/kimhab-service.fraud-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fraud-service/kimhab-service.fraud-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gateway-server/kimhab-service.gateway-server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/gateway-server/kimhab-service.gateway-server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/task-service/kimhab-service.task-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/task-service/kimhab-service.task-service.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/user-service/kimhab-service.user-service.test.iml" filepath="$PROJECT_DIR$/.idea/modules/user-service/kimhab-service.user-service.test.iml" />
+    </modules>
+  </component>
+</project>

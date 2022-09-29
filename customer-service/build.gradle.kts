@@ -28,7 +28,7 @@ dependencies {
     developmentOnly("org.springframework.boot:spring-boot-devtools")
     runtimeOnly("org.postgresql:postgresql")
     annotationProcessor("org.projectlombok:lombok")
-    implementation("org.springframework.cloud:spring-cloud-starter-zipkin:2.2.8.RELEASE")
+//    zipkin
     implementation("org.springframework.cloud:spring-cloud-starter-sleuth:3.1.4")
     implementation("org.springframework.cloud:spring-cloud-sleuth-zipkin:3.1.4")
 

@@ -1,5 +1,5 @@
 
-rootProject.name = "kimhab-service"
+rootProject.name = "kimhab-spring-microservice"
 include("user-service")
 include("task-service")
 include("customer-service")
