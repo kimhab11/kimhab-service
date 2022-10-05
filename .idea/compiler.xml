@@ -9,7 +9,6 @@
         </processorPath>
         <module name="kimhab-spring-microservice.fraud-service.main" />
         <module name="kimhab-spring-microservice.customer-service.main" />
-        <module name="kimhab-spring-microservice.user-service.main" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="17" />

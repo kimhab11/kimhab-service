@@ -5,8 +5,6 @@ plugins {
     kotlin("plugin.spring")
 }
 
-group = "org.example"
-
 repositories {
     mavenCentral()
 }
