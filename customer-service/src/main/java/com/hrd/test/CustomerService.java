@@ -1,13 +1,12 @@
-package com.hrd.java;
-
+package com.hrd.test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class TestFraud {
+public class CustomerService {
     public static void main(String[] args) {
-        SpringApplication.run(TestFraud.class, args);
+        SpringApplication.run(CustomerService.class, args);
     }
 }
